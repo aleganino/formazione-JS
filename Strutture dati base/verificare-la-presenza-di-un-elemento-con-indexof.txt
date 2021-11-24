@@ -1,0 +1,10 @@
+function quickCheck(arr, elem) {
+  // Modifica il codice solo sotto questa riga
+  if (arr.indexOf(elem)!=-1) {
+    return true;
+  }
+  return false;
+  // Modifica il codice solo sopra questa riga
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));

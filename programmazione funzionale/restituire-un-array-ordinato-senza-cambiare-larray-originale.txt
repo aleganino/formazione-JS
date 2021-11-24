@@ -1,0 +1,11 @@
+const globalArray = [5, 6, 3, 2, 9];
+
+function nonMutatingSort(arr) {
+  // Modifica il codice solo sotto questa riga
+  let newArr=[].concat(arr).sort( (a,b) => { return a-b });
+  console.log(newArr);
+  return newArr;
+  // Modifica il codice solo sopra questa riga
+}
+
+nonMutatingSort(globalArray);

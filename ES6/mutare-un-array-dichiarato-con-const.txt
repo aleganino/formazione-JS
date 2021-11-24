@@ -1,0 +1,11 @@
+const s = [5, 7, 2];
+function editInPlace() {
+  // Modifica il codice solo sotto questa riga
+  s.unshift(2);
+  s.pop();
+  console.log(s);
+  // Utilizzare s = [2, 5, 7] non sarebbe valido
+
+  // Modifica il codice solo sopra questa riga
+}
+editInPlace();

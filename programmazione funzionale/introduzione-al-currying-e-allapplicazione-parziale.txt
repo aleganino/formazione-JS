@@ -1,0 +1,7 @@
+function add(x) {
+  // Modifica il codice solo sotto questa riga
+  return y => z => x+y+z; 
+  // Modifica il codice solo sopra questa riga
+}
+
+add(10)(20)(30);

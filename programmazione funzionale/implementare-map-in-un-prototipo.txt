@@ -1,0 +1,15 @@
+// La variabile globale
+const s = [23, 65, 98, 5];
+
+Array.prototype.myMap = function(callback) {
+  const newArray = [];
+  // Modifica il codice solo sotto questa riga
+  for (let item of this)
+    newArray.push(callback(item));
+  // Modifica il codice solo sopra questa riga
+  return newArray;
+};
+
+const new_s = s.myMap(function(item) {
+  return item * 2;
+});

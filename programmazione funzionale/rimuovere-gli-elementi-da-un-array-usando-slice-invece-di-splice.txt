@@ -1,0 +1,11 @@
+function nonMutatingSplice(cities) {
+  // Modifica il codice solo sotto questa riga
+  const len = 3;
+  const newArray = cities.slice(0,len);
+  return newArray;
+
+  // Modifica il codice solo sopra questa riga
+}
+
+const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+nonMutatingSplice(inputCities);

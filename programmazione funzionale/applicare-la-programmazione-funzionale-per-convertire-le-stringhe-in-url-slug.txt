@@ -1,0 +1,6 @@
+// Modifica il codice solo sotto questa riga
+function urlSlug(title) {
+  return title.trim().toLowerCase().split(/ +/).join("-");
+
+}
+// Modifica il codice solo sopra questa riga

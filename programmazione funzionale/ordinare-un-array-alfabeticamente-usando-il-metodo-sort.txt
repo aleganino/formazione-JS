@@ -1,0 +1,8 @@
+function alphabeticalOrder(arr) {
+  // Modifica il codice solo sotto questa riga
+
+  return arr.sort();
+  // Modifica il codice solo sopra questa riga
+}
+
+alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);

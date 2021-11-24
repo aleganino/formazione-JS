@@ -1,0 +1,9 @@
+function countOnline(usersObj) {
+  // Modifica il codice solo sotto questa riga
+  let count=0;
+  for (let user in usersObj)
+    if (usersObj[user].online==true)
+      count++;
+  return count;
+  // Modifica il codice solo sopra questa riga
+}
